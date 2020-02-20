@@ -20,5 +20,5 @@ func init() {
 }
 
 func main() {
-	log.Info(package1.ProjectName)
+	log.Info(package1.GetProjectName())
 }
